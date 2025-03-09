@@ -15,31 +15,31 @@ interface Destination {
 const destinations: Destination[] = [
   {
     id: 1,
-    name: "Bali",
-    location: "Indonesia",
-    image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=600&q=80",
-    tours: 15
-  },
-  {
-    id: 2,
-    name: "Machu Picchu",
-    location: "Peru",
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=600&q=80",
+    name: "Coorg",
+    location: "Karnataka, India",
+    image: "https://images.unsplash.com/photo-1559888490-7c3c396c8195?auto=format&fit=crop&w=600&q=80",
     tours: 8
   },
   {
+    id: 2,
+    name: "Munnar",
+    location: "Kerala, India",
+    image: "https://images.unsplash.com/photo-1609948543931-f658d86373fc?auto=format&fit=crop&w=600&q=80",
+    tours: 10
+  },
+  {
     id: 3,
-    name: "Swiss Alps",
-    location: "Switzerland",
-    image: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=600&q=80",
+    name: "Manali",
+    location: "Himachal Pradesh, India",
+    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80",
     tours: 12
   },
   {
     id: 4,
-    name: "Pyramids of Giza",
-    location: "Egypt",
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80",
-    tours: 7
+    name: "Goa",
+    location: "India",
+    image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=600&q=80",
+    tours: 15
   }
 ];
 
@@ -48,9 +48,9 @@ const PopularDestinations = () => {
     <section className="section-padding bg-white">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Popular Destinations</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Popular Indian Destinations</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Explore our most sought-after travel destinations that captivate travelers from around the world.
+            Explore the most beautiful and sought-after destinations across India, from serene hill stations to vibrant beaches.
           </p>
         </div>
         

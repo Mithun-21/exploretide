@@ -53,7 +53,7 @@ const TourCard = ({ id, title, location, duration, price, image, rating, feature
         </div>
         <div className="flex justify-between items-center">
           <div>
-            <span className="text-lg font-bold text-primary">${price}</span>
+            <span className="text-lg font-bold text-primary">₹{price}</span>
             <span className="text-sm text-muted-foreground"> / person</span>
           </div>
         </div>
@@ -70,58 +70,58 @@ const TourCard = ({ id, title, location, duration, price, image, rating, feature
 const featuredTours = [
   {
     id: 1,
-    title: "Bali Paradise Escape",
-    location: "Bali, Indonesia",
-    duration: "7 Days / 6 Nights",
-    price: 1299,
-    image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=600&q=80",
+    title: "Kudremukha Trek",
+    location: "Karnataka, India",
+    duration: "2 Days / 1 Night",
+    price: 4999,
+    image: "https://images.unsplash.com/photo-1580474256381-f98365422d20?auto=format&fit=crop&w=600&q=80",
     rating: 4.8,
     featured: true
   },
   {
     id: 2,
-    title: "Sacred Valley Expedition",
-    location: "Peru",
-    duration: "10 Days / 9 Nights",
-    price: 1899,
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=600&q=80",
+    title: "Coorg Coffee Plantations",
+    location: "Karnataka, India",
+    duration: "3 Days / 2 Nights",
+    price: 7999,
+    image: "https://images.unsplash.com/photo-1559888490-7c3c396c8195?auto=format&fit=crop&w=600&q=80",
     rating: 4.9,
     featured: true
   },
   {
     id: 3,
-    title: "Alpine Adventure",
-    location: "Switzerland",
+    title: "Manali Adventure",
+    location: "Himachal Pradesh, India",
     duration: "5 Days / 4 Nights",
-    price: 1499,
-    image: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=600&q=80",
+    price: 12999,
+    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80",
     rating: 4.7
   },
   {
     id: 4,
-    title: "Egyptian Wonders",
-    location: "Egypt",
-    duration: "8 Days / 7 Nights",
-    price: 1699,
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80",
+    title: "Dudhsagar Falls Trek",
+    location: "Goa, India",
+    duration: "2 Days / 1 Night",
+    price: 3999,
+    image: "https://images.unsplash.com/photo-1544914379-806667cd9489?auto=format&fit=crop&w=600&q=80",
     rating: 4.6
   },
   {
     id: 5,
-    title: "Cultural Japan",
-    location: "Japan",
-    duration: "9 Days / 8 Nights",
-    price: 2399,
-    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80",
+    title: "Kerala Backwaters",
+    location: "Kerala, India",
+    duration: "4 Days / 3 Nights",
+    price: 9999,
+    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=80",
     rating: 4.9
   },
   {
     id: 6,
-    title: "Amazon Expedition",
-    location: "Brazil",
-    duration: "6 Days / 5 Nights",
-    price: 1599,
-    image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=600&q=80",
+    title: "Mysore Heritage Tour",
+    location: "Karnataka, India",
+    duration: "3 Days / 2 Nights",
+    price: 5999,
+    image: "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80",
     rating: 4.5
   }
 ];
@@ -131,9 +131,9 @@ const FeaturedTours = () => {
     <section className="section-padding bg-gray-50">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Featured Tours</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Discover India with Us</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Discover our handpicked selection of the most extraordinary travel experiences, each designed to create unforgettable memories.
+            Explore the diverse beauty of India with our handpicked selection of extraordinary travel experiences, from serene backwaters to majestic mountains.
           </p>
         </div>
         

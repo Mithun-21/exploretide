@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Search } from 'lucide-react';
@@ -16,6 +16,7 @@ const links = [
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <header className="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-sm shadow-sm">
@@ -32,7 +33,10 @@ const Navbar = () => {
               <Link
                 key={link.name}
                 to={link.href}
-                className="text-gray-700 hover:text-primary transition-colors font-medium"
+                className={cn(
+                  "text-gray-700 hover:text-primary transition-colors font-medium",
+                  location.pathname === link.href && "text-primary font-semibold"
+                )}
               >
                 {link.name}
               </Link>
@@ -98,7 +102,10 @@ const Navbar = () => {
               <Link
                 key={link.name}
                 to={link.href}
-                className="text-gray-700 hover:text-primary transition-colors font-medium px-2 py-1"
+                className={cn(
+                  "text-gray-700 hover:text-primary transition-colors font-medium px-2 py-1",
+                  location.pathname === link.href && "text-primary font-semibold"
+                )}
                 onClick={() => setIsOpen(false)}
               >
                 {link.name}

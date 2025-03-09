@@ -17,7 +17,7 @@ const destinations: Destination[] = [
     id: 1,
     name: "Coorg",
     location: "Karnataka, India",
-    image: "https://images.unsplash.com/photo-1559888490-7c3c396c8195?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&q=80",
     tours: 8
   },
   {

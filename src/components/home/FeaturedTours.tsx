@@ -74,7 +74,7 @@ const featuredTours = [
     location: "Karnataka, India",
     duration: "2 Days / 1 Night",
     price: 4999,
-    image: "https://images.unsplash.com/photo-1580474256381-f98365422d20?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=600&q=80",
     rating: 4.8,
     featured: true
   },
@@ -84,7 +84,7 @@ const featuredTours = [
     location: "Karnataka, India",
     duration: "3 Days / 2 Nights",
     price: 7999,
-    image: "https://images.unsplash.com/photo-1559888490-7c3c396c8195?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&w=600&q=80",
     rating: 4.9,
     featured: true
   },

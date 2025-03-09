@@ -24,7 +24,7 @@ const destinations: Destination[] = [
     id: 2,
     name: "Munnar",
     location: "Kerala, India",
-    image: "https://images.unsplash.com/photo-1609948543931-f658d86373fc?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=600&q=80",
     tours: 10
   },
   {
